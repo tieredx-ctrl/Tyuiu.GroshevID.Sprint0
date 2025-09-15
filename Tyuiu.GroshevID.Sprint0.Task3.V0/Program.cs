@@ -1,10 +1,10 @@
-﻿using Tyuiu.GroshevID.Sprint0.Task2.V0.Lib;
+﻿using Tyuiu.GroshevID.Sprint0.Task3.V0.Lib;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine(DataService.GetMessage("Илья"));
+        Console.WriteLine(DataService.Sum(7, 7));
         Console.ReadKey();
     }
 }
