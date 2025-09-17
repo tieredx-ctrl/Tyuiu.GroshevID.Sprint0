@@ -9,6 +9,7 @@ internal class Program
         Console.WriteLine("A * B = " + DataService.Multiplication(10, 10));
 
         Console.WriteLine("A / B = " + DataService.Division(9, 3));
+
         Console.ReadKey();
     }
 }
