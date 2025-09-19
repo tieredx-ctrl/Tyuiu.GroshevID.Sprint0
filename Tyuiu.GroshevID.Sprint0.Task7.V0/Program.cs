@@ -6,7 +6,20 @@ internal class Program
     {
         Console.Title = "Спринт #0 | Выполнил: Грошев И. Д. | РППб-25-1";
 
-        Console.WriteLine("ОПИСАНИЕ ПРОЕКТА");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* Спринт #0                                                               *");
+        Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
+        Console.WriteLine("* Задание #7                                                              *");
+        Console.WriteLine("* Вариант #0                                                              *");
+        Console.WriteLine("* Выполнил: Грошев Илья Дмитриевич | РППб-25-1                            *");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* УСЛОВИЕ:                                                                *");
+        Console.WriteLine("* Написать консольную программу на C#, которая суммирует значения двух    *");
+        Console.WriteLine("* одинаковых массивов по длинне.                                          *");
+        Console.WriteLine("*                                                                         *");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+        Console.WriteLine("***************************************************************************");
 
         int[] arrayNums1 = new int[] { 1, 2, 3, 4, 5 };
         Console.WriteLine("Значение элементов массива №1");
@@ -25,7 +38,9 @@ internal class Program
         }
 
         Console.WriteLine();
-        Console.WriteLine("ОПИСАНИЕ ПРОЕКТА");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+        Console.WriteLine("***************************************************************************");
         if (arrayNums1.Length == arrayNums2.Length)
         {
             int[] resultArray = DataService.AdditionArrays(arrayNums1, arrayNums2);
